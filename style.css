@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    background: rgb(27,36,74);
+    background: linear-gradient(90deg, rgba(27,36,74,1) 0%, rgba(33,52,130,1) 100%);
+    height: 100vh;
+    font-family: 'CursedFont', sans-serif;
+    text-align: center;
+}
+
+.title{
+    margin-top: 5vh;
+    margin-bottom: 0;
+    text-align: center;
+    color: aliceblue;
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 90vh;
+}
+
+.scoreboard{
+    width: 40vw;
+    height: 75vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin: 0;
+    font-size: 15rem;
+    color: rgb(235, 62, 62);
+}
+
+.score{
+    background-color: rgb(15, 15, 15);
+    border-radius: 1rem;
+    width: 35vw;
+    height: 55vh;
+    margin: 0 auto 3vh auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+}
+
+.btn-add{
+    font-family: 'CursedFont', sans-serif;
+    font-size: 4rem;
+    background-color: transparent;
+    border: .0625rem solid aliceblue;
+    border-radius: 0.7rem;
+    padding: 0.3rem 1rem 0 1rem;
+    color: aliceblue;
+}
+
+.card{
+    width: 50vw;
+    text-align: center;
+    color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#btn-reset{
+    font-family: 'CursedFont', sans-serif;
+    font-size: 3rem;
+    background-color: transparent;
+    border: .0625rem solid aliceblue;
+    border-radius: 0.7rem;
+    padding: 0.4rem 1.3rem 0 1.3rem;
+    color: aliceblue;
+}
+
+button, #btn-reset {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover, #btn-reset:hover {
+    background-color: aliceblue;
+    color: rgb(15, 15, 15);
+    cursor: pointer;
+}
+
+
+@font-face {
+    font-family: 'CursedFont';
+    src:  url('CursedFont.ttf') format('truetype');
+}
+
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1000px) {
+    html {
+      font-size: 11px;
+    }
+}
+
+
+@media (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 4px;
+  }
+}
